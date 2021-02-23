@@ -1,0 +1,102 @@
+
+body {
+  background-image: url(backgroundlime.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.principale {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 35px;
+  width: 70%;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 300px 200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#Logo {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  color: #00FF1A;
+  font-size: 100px;
+  text-align: center;
+}
+
+ /* pulsanti  */
+.contenitorebottoni {
+  height: 100px;
+  width: auto;
+  position: relative;
+  background-color: #00FF1A;
+  margin: auto;
+}
+
+.bottoni{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-size: 40px;
+  width: auto;
+  margin: auto;
+
+}
+
+/* pattini */
+
+section {
+font-size: 50px;
+color: white;
+}
+
+h2 {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+.barragialla {
+  width: 700px;
+  background-color: orange;
+  color: rgba(0, 0, 0, 0.0);
+  border-radius: 15px;
+}
+
+.barraverde {
+  width: 1000px;
+  background-color: green;
+  color: rgba(0, 0, 0, 0.0);
+  border-radius: 15px;
+
+}
+.barrarossa {
+  width: 200px;
+  background-color: red;
+  color: rgba(0, 0, 0, 0.0);
+  border-radius: 15px;
+}
+
+/* larger checkbox */
+.larger {
+  width: 50px;
+  height: 50px;
+}
